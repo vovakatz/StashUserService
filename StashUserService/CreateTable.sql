@@ -1,0 +1,3 @@
+﻿CREATE TABLE Users([id] INTEGER PRIMARY KEY AUTOINCREMENT,[email] [varchar](200) UNIQUE NOT NULL,[phone_number] [varchar](200) UNIQUE NOT NULL,[full_name] [varchar](200) NULL,[password] [varchar](100) NOT NULL,[key] [varchar](100) UNIQUE NOT NULL,[account_key] [varchar](100) UNIQUE NULL,[metadata] [varchar](2000) NULL);
+
+INSERT INTO Users ([email],[phone_number],[full_name],[password],[key],[account_key],[metadata])VALUES('vovakats@yahoo.com','917-263-0093','Vladimir Katz','password','keygoeshere','accountkeygoeshere','male 22 unemployed');
